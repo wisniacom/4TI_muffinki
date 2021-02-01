@@ -6,42 +6,117 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .header {
     display: flex;
+    align-items: center;
     flex: 1;
     background-color: white;
     height: 8vh;
-    font-family: 'Kaushan Script', cursive;
+
     position: absolute;
     width: 100vw;
-    z-index: 1;
+    margin: 0;
+}
+
+.header img {
+    margin-left: 1vw;
 }
 
 .info {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 30vw;
 }
 
 .info2 {
     display: flex;
     flex: 1;
-    margin: 0 0 5px 5px;
-    font-size: 20px;
+    margin-left: 15px;
+    font-size: 23px;
     color: rgb(239, 121, 152);
+}
+
+.info2:hover {
+    color: black;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30vw;
+}
+
+.koszyk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: black;
+    height: 42px;
+    width: 150px;
 }
 
 .muffin {
     display: flex;
-    background-color: rgb(	255, 255, 20);
-    color: aqua;
+    flex: 1;
+    background-image:url("header-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.mufinka {
-
+.muffinka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
-    opacity: 0.8;
+    background-color: rgb(	249, 217, 56, 0.2);
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grandma {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+.grandma i {
+    font-size: 55px;
+    color: rgb(239, 121, 152);
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.explore {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 9px 8px 8px;
+}
+
+.explore:hover, .koszyk:hover {
+    background-color: #3FA7D6;
 }
