@@ -45,6 +45,7 @@ body {
     margin-top: 4vh;
     font-size: 18px;
     color: black;
+    cursor: pointer;
 }
 
 .explore:hover, .button:hover {
@@ -56,7 +57,7 @@ body {
     height: 25wh;
     border-style: solid;
     border-color: rgb(249, 228, 148);
-    border-width: 8px;
+    border-width: 10px;
     margin-left: 8vw;
 }
 
@@ -83,7 +84,7 @@ body {
 
 .down p {
     margin-bottom: -50px;
-    margin-top: 0;
+    margin-top: -20px;
 }
 
 .search button {
@@ -92,7 +93,7 @@ body {
     float: left;
     padding: 6px 10px;
     font-size: 17px;
-    border: none;
+    border-style: solid;
     cursor: pointer;
 }
 
