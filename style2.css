@@ -71,7 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 30vh;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -79,6 +79,11 @@ body {
     width: 45vw;
     display: flex;
     justify-content: space-evenly;
+}
+
+.down p {
+    margin-bottom: -50px;
+    margin-top: 0;
 }
 
 .search button {
