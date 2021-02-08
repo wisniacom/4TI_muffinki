@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 25vw;
+    align-items: flex-start;
+    color: gray;
+}
+
+.about p, .down p {
+    font-size: 40px;
+    margin-bottom: 1vh;
+    color: black;
+}
+
+.about b, .down b {
+    font-size: 70px;
+    color: rgb(239, 121, 152);
+}
+
+.explore, .button {
+    padding: 8px 9px 8px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: black;
+    margin-top: 4vh;
+    font-size: 18px;
+    color: black;
+}
+
+.explore:hover, .button:hover {
+    background-color: #3FA7D6;
+}
+
+.macarons {
+    width: 25vw;
+    height: 25wh;
+    border-style: solid;
+    border-color: rgb(249, 228, 148);
+    border-width: 8px;
+    margin-left: 8vw;
+}
+
+.macarons img {
+    width: 25vw;
+    height: 25wh;
+    transform: translate(30px, 30px);
+}
+
+.down {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    width: 45vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search button {
+    background-color: rgb(239, 121, 152);
+    border-color: rgb(239, 121, 152);
+    margin-right: 0;
+    width: 30px;
+}
