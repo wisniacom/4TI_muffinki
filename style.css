@@ -28,8 +28,17 @@ body {
     justify-content: center;
 }
 
+.phone p {
+    margin: 1vw;
+}
+
 .info, .phone {
     margin-left: 30vw;
+}
+
+.info2 a {
+    text-decoration: none;
+    color: rgb(239, 121, 152);
 }
 
 .info2 {
@@ -40,14 +49,14 @@ body {
     color: rgb(239, 121, 152);
 }
 
-.info2:hover {
+.info2:hover, .info2 a:hover {
     color: black;
 }
 
 .koszyk{
     margin-left: 5vw;
     height: 42px;
-    width: 150px;
+    width: 170px;
 }
 
 .explore, .koszyk {
@@ -81,7 +90,6 @@ body {
 .grandma i {
     font-size: 55px;
     color: rgb(239, 121, 152);
-    margin-left: 7px;
     font-weight: bold;
 }
 
