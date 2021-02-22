@@ -19,20 +19,20 @@ body {
 .about {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 2vh;
     width: 25vw;
     align-items: flex-start;
     color: gray;
 }
 
 .about p, .down p {
-    font-size: 40px;
+    font-size: 4vh;
     margin-bottom: 1vh;
     color: black;
 }
 
 .about b, .down b {
-    font-size: 70px;
+    font-size: 7vh;
     color: rgb(239, 121, 152);
 }
 
