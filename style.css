@@ -61,11 +61,13 @@ body {
     width: 170px;
 }
 
-.explore, .koszyk {
+.explore, .koszyk, .button {
     border-style: solid;
     border-width: 2px;
     border-radius: 4px;
     border-color: black;
+    font-size: 18px;
+    color: black;
     cursor: pointer;
 }
 
@@ -95,10 +97,92 @@ body {
     color: rgb(239, 121, 152);
 }
 
-.explore {
+.explore, .button {
     padding: 8px 9px 8px 8px;
+    margin-top: 4vh;
 }
 
-.explore:hover, .koszyk:hover {
+.explore:hover, .koszyk:hover, .button:hover {
     background-color: rgb(239, 121, 152);
+}
+
+#up {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+    width: 25vw;
+    align-items: flex-start;
+    color: gray;
+}
+
+.about p, .down p {
+    font-size: 4vh;
+    margin-bottom: 1vh;
+    color: black;
+}
+
+.about b, .down b {
+    font-size: 7vh;
+    color: rgb(239, 121, 152);
+}
+
+.macarons {
+    width: 25vw;
+    height: 25wh;
+    border-style: solid;
+    border-color: rgb(249, 228, 148);
+    border-width: 10px;
+    margin-left: 8vw;
+}
+
+.macarons img {
+    width: 25vw;
+    height: 25wh;
+    transform: translate(30px, 30px);
+}
+
+.down {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons {
+    width: 45vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.down p {
+    margin-bottom: -50px;
+    margin-top: -20px;
+}
+
+.search button {
+    background-color: rgb(239, 121, 152);
+    border-color: rgb(239, 121, 152);
+    float: left;
+    padding: 6px 10px;
+    font-size: 17px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.search input {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    font-family: 'Kaushan Script', cursive;
+    width: 28vw;
 }
