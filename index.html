@@ -2,11 +2,12 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="splide/dist/js/splide.min.js">
         <script src="https://kit.fontawesome.com/b69f740f16.js" crossorigin="anonymous"></script>
-        <script src="splide/dist/js/splide.min.js"></script>
         <link rel="shortcut icon" href="logo.svg">
-        <title>Muffinki</title>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+        <title>Grandma's</title>
     </head>
     <body>
         <div class="header">
@@ -78,6 +79,37 @@
                 <input type="text" placeholder=" item....">
             </div>
         </div>
+
+        <div id="image-slider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="zdj/1.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="zdj/2.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="zdj/3.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="zdj/4.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            
+            new Splide( '#image-slider', {
+             width: '1024px',
+             height: '450px',
+             perPage: 2,
+             gap: 10,
+              
+            } ).mount();
+
+        </script>
 
     </body>
 
